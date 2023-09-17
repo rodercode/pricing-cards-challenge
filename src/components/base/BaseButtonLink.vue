@@ -1,6 +1,6 @@
 <!-- BUTTON LINK -->
 <template>
-  <a class="btn-link">{{ name }}</a>
+  <a>{{ name }}</a>
 </template>
 
 <script lang="ts">
@@ -14,3 +14,13 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+.btn-link {
+  @apply inline-block px-8 py-3
+    font-bold text-white transition
+    duration-300 cursor-pointer bg-primary-color-base
+    rounded-md hover:bg-primary-color-dark
+    w-full mb-6;
+}
+</style>
