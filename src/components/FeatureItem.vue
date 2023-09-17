@@ -19,9 +19,20 @@ export default defineComponent({
   },
 });
 </script>
-
 <style lang="scss" scoped>
-li::marker {
+.free-acc::marker {
   content: "✅";
+}
+
+.payed-acc:nth-child(1)::marker {
+  content: "✅";
+}
+
+.payed-acc:nth-child(2)::marker {
+  content: "❌";
+}
+
+.payed-acc:nth-child(3)::marker {
+  content: "❌";
 }
 </style>

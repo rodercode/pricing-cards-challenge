@@ -6,19 +6,21 @@
       price-tag="0$/month"
       price-description="Great for starters"
       body-text="Discover how to create your first projects."
+      sub="free-acc"
     />
     <PriceCard
       title="Lite"
       price-tag="7$/month"
       price-description="For planed projects"
       body-text="Bring your designs to the next level and export them."
+      sub="payed-acc"
     />
     <PriceCard
       title="Pro"
       price-tag="12$/month"
       price-description="For professonal use"
       body-text="Enjoy limitless use with interactive export options"
-      emoji="[✅,✅,✅]]"
+      sub="payed-acc"
     />
   </div>
 </template>

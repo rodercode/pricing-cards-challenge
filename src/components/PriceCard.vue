@@ -23,10 +23,10 @@
       <BaseButtonLink class="btn-link" name="Get started" />
 
       <!-- FEATURE LIST -->
-      <ul class="ml-4 text-left">
-        <FeatureItem :emoji="emoji" text="New projects / mount" />
-        <FeatureItem :emoji="emoji" text="Interaction" />
-        <FeatureItem :emoji="emoji" text="Assets library" />
+      <ul class="ml-4 text-left free-acc">
+        <FeatureItem :class="sub" text="New projects / mount" />
+        <FeatureItem :class="sub" text="Interaction" />
+        <FeatureItem :class="sub" text="Assets library" />
       </ul>
     </main>
   </div>
@@ -56,10 +56,10 @@ export default defineComponent({
       type: String,
       default: "",
     },
-    emoji: {
-      type: String,
-      default: "",
-    },
+    sub:{
+      type:String,      
+    }
+    
   },
   components: {
     BaseButtonLink,
@@ -70,3 +70,5 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped></style>
