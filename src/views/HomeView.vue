@@ -2,18 +2,23 @@
   <!-- HOME -->
   <div class="px-4 py-12">
     <!-- PRICE CARD -->
-    <div class="border-black border-1">
-      <header>
-        <h1>Free</h1>
+    <div class="text-center border-black border-1">
+      <header class="text-white bg-primary-color-light">
+        <h1 class="mb-6">Free</h1>
       </header>
       <main>
         <!-- PRICE TAG -->
-        <span>0</span>
-        <span>Greate for startes</span>
-        <span>Discover how to create your first projects</span>
+        <span class="text-2xl">$0</span>
+        
+        <!-- Description box -->
+        <div>
+          <span class="mb-2">Great for starters</span>
+          <span>Discover how to create your first projects</span>
+        </div>
+
         <BaseButtonLink name="Get started" />
         <!-- FEATURE LIST -->
-        <ul>
+        <ul class="text-left">
           <!-- FEATURE -->
           <li>
             <span>New projects / mount</span>
