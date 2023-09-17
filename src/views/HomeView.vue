@@ -1,24 +1,24 @@
 <template>
   <!-- HOME -->
-  <div class="px-4 py-12">
+  <div class="mx-2 my-12">
     <!-- PRICE CARD -->
-    <div class="text-center border-black border-1">
-      <header class="text-white bg-primary-color-light">
-        <h1 class="mb-6">Free</h1>
+    <div class="px-2 pt-2 pb-6 text-center border-black rounded-md border-1">
+      <header class="text-white rounded-md bg-primary-color-light">
+        <h1 class="py-2 mb-6 text-lg uppercase">Free</h1>
       </header>
-      <main>
+      <main class="px-4">
         <!-- PRICE TAG -->
         <span class="text-2xl">$0</span>
-        
+
         <!-- Description box -->
         <div>
-          <span class="mb-2">Great for starters</span>
-          <span>Discover how to create your first projects</span>
+          <span class="mb-4">Great for starters</span>
+          <span class="mb-2">Discover how to create your first projects</span>
         </div>
 
-        <BaseButtonLink name="Get started" />
+        <BaseButtonLink class="w-full py-3 mb-6 rounded-md component-btn" name="Get started" />
         <!-- FEATURE LIST -->
-        <ul class="text-left">
+        <ul class="ml-4 text-left list-disc">
           <!-- FEATURE -->
           <li>
             <span>New projects / mount</span>
