@@ -9,7 +9,7 @@
     @apply text-gray-color-base font-Poppins;
   }
   h1 {
-    @apply text-3xl font-bold leading-tight;
+    @apply text-2xl font-bold leading-tight;
   }
   h2 {
     @apply text-2xl font-semibold;
@@ -19,6 +19,9 @@
   }
   p {
     @apply text-base leading-xl-relaxed;
+  }
+  span {
+    display: block;
   }
 }
 
