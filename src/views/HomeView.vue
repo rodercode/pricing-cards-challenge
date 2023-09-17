@@ -1,7 +1,7 @@
 <template>
   <!-- HOME -->
   <div
-    class="grid max-w-lg gap-8 px-4 m-auto my-12 md:grid-cols-3 md:max-w-4xl"
+    class="grid items-center h-screen max-w-lg gap-8 px-4 m-auto my-12 md:my-0 md:grid-cols-3 md:max-w-4xl"
   >
     <PriceCard
       title="Free"
