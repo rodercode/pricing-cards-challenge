@@ -1,6 +1,8 @@
 <template>
   <!-- HOME -->
-  <div class="flex flex-col gap-8 mx-2 my-12">
+  <div
+    class="grid max-w-lg gap-8 px-4 m-auto my-12 md:grid-cols-3 md:max-w-4xl"
+  >
     <PriceCard
       title="Free"
       price-tag="0$/month"
